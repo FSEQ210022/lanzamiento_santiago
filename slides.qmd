@@ -18,17 +18,15 @@ title-slide-attributes:
     data-background-opacity: ".4"
 ---
 
-# Contexto {background-color='darkgreen'}
+# Contexto {background-color="darkgreen"}
 
-## Las `actividades humanas`, principalmente a través de las emisiones de gases de efecto invernadero, han causado `inequívocamente` el `calentamiento global` (IPCC, AR6, 2023) {.center background-color='orange'}
+## Las `actividades humanas`, principalmente a través de las emisiones de gases de efecto invernadero, han causado `inequívocamente` el `calentamiento global` (IPCC, AR6, 2023) {.center background-color="orange"}
 
-## `Desde 1950` los eventos de `sequía` se han `intensificado` y han sido más `frecuentes` (IPCC, AR6, 2023)  {.center background-color='ocean'}
+## `Desde 1950` los eventos de `sequía` se han `intensificado` y han sido más `frecuentes` (IPCC, AR6, 2023) {.center background-color="ocean"}
 
-## A `2°C` de anomalía o más, se proyectan `sequías` `agrícolas` y `ecológicas` más `frecuentes` y/o `severas` en América del Sur (confianza media a alta) (IPCC, AR6, 2023) {.center background-color='lightblue'}
+## A `2°C` de anomalía o más, se proyectan `sequías` `agrícolas` y `ecológicas` más `frecuentes` y/o `severas` en América del Sur (confianza media a alta) (IPCC, AR6, 2023) {.center background-color="lightblue"}
 
-## {background-image="img/fig_spei24_macrozonas.png" background-size='contain'}
-
-
+##  {background-image="img/fig_spei24_macrozonas.png" background-size="contain"}
 
 # ¿Qué es la sequía? {background-color="orange"}
 
@@ -46,66 +44,64 @@ title-slide-attributes:
 
 # ¿Qué es ODES?
 
-## {background-image="img/diagrama_ODES.png" background-size="contain"}
+##  {background-image="img/diagrama_ODES.png" background-size="contain"}
 
 ## ODES: un proyecto ambicioso
 
->ODES: Observatorio de sequía para la agricultura y biodiversidad de Chile
+> ODES: Observatorio de sequía para la agricultura y biodiversidad de Chile
 
-**Objetivo:** Desarrollar un `observatorio`
-de `sequía multiescala` para Chile que ayude a mitigar los `impactos agrícolas` y
-`ecológicos`.
+**Objetivo:** Desarrollar un `observatorio` de `sequía multiescala` para Chile que ayude a mitigar los `impactos agrícolas` y `ecológicos`.
 
-[https://odes-chile.org](https://odes-chile.org)
+<https://odes-chile.org>
 
 ## Escala Nacional
 
 ![](img/observatorios_nacionales.png)
 
-
 ## ODES Unidades {.smaller}
 
-- Monitoreo del `clima` con frecuencia `mensual` desde 1981 hasta ahora, para `Chile continental`.
-- Utiliza datos de reanálisis climático `ERA5-Land` y `MODIS` (Espectrorradiómetro de imágenes de media resolución) de vegetación.
-- Variables:
-  - Precipitación
-  - Temperatura
-  - Demanda Evaporativa de la Atmósfera (ET0)
-  - Humedad de suelo
-  - Contenido de agua equivalente de nieve
-  - Estado de desarrollo de la vegetación
-  
+-   Monitoreo del `clima` con frecuencia `mensual` desde 1981 hasta ahora, para `Chile continental`.
+-   Utiliza datos de reanálisis climático `ERA5-Land` y `MODIS` (Espectrorradiómetro de imágenes de media resolución) de vegetación.
+-   Variables:
+    -   Precipitación
+    -   Temperatura
+    -   Demanda Evaporativa de la Atmósfera (ET0)
+    -   Humedad de suelo
+    -   Contenido de agua equivalente de nieve
+    -   Estado de desarrollo de la vegetación
+
 ## ODES Unidades {.smaller}
 
 `Indicadores de sequía`: Utilizan anomalías de variables climáticas agregadas en varios meses.
 
 Ventajas de los indicadores de sequía
 
-1. Permiten comparación entre diferentes zonas climáticas (humedas, aridas, ...)
-2. Permiten comparación entre diferentes estaciones del año.
-3. Permiten analizar la sequía a corto y largo plazo (ej., mega sequía)
-4. Se pueden categorizar de acuerdo a la ocurrencia del evento, de acuerdo a su comportamiento histórico.
+1.  Permiten comparación entre diferentes zonas climáticas (humedas, aridas, ...)
+2.  Permiten comparación entre diferentes estaciones del año.
+3.  Permiten analizar la sequía a corto y largo plazo (ej., mega sequía)
+4.  Se pueden categorizar de acuerdo a la ocurrencia del evento, de acuerdo a su comportamiento histórico.
 
 ## ODES Unidades {.smaller}
 
-- `Indicadores derivados en ODES:`
-  - `SPI` (índice estandarizado de precipitación)
-  - `SPEI` (índice estandarizado de precipitación-Evapotranspiración)
-  - `EDDI` (índice de sequía de demanda evaporativa)
-  - `zcSM` (índice estandarizado de humedad de suelo)
-  - `zcNDVI` (índice estandarizado de vegetación)
-  - `SWEI` (índice estandarizado de contenido de agua equivalente de nieve)
+-   `Indicadores derivados en ODES:`
+    -   `SPI` (índice estandarizado de precipitación)
+    -   `SPEI` (índice estandarizado de precipitación-Evapotranspiración)
+    -   `EDDI` (índice de sequía de demanda evaporativa)
+    -   `zcSM` (índice estandarizado de humedad de suelo)
+    -   `zcNDVI` (índice estandarizado de vegetación)
+    -   `SWEI` (índice estandarizado de contenido de agua equivalente de nieve)
 
-Todos calculado a agregaciones de 1, 3, 6, 12, 24 y 36 meses, excepto zcNDVI que está a 1,3 y 6 meses.   
+Todos calculado a agregaciones de 1, 3, 6, 12, 24 y 36 meses, excepto zcNDVI que está a 1,3 y 6 meses.
 
 ## ODES Unidades: Ejemplo {.smaller}
 
 Sequía corto plazo, SPEI de 6 meses.
 
-::: {.columns}
+::: columns
 ::: {.column width="50%"}
 ![](img/SPEI6_mayo2023.png){width="80%"}
 :::
+
 ::: {.column width="50%"}
 ![](img/SPEI6_junio2023.png){width="80%"}
 :::
@@ -115,10 +111,11 @@ Sequía corto plazo, SPEI de 6 meses.
 
 Sequía largo plazo, SPEI de 36 meses.
 
-::: {.columns}
+::: columns
 ::: {.column width="50%"}
 ![](img/SPEI36_mayo2023.png){width="80%"}
 :::
+
 ::: {.column width="50%"}
 ![](img/SPEI36_junio2023.png){width="80%"}
 :::
@@ -128,10 +125,11 @@ Sequía largo plazo, SPEI de 36 meses.
 
 Calculada para cada unidad de acuerdo a su distribución temporal 1981-ahora.
 
-::: {.columns}
+::: columns
 ::: {.column width="50%"}
 ![](img/histograma_percentiles.jpg)
 :::
+
 ::: {.column width="50%"}
 ```{r}
 library(gt)
@@ -150,7 +148,6 @@ data.frame(`Percentiles` = c('0-2','2-5','5-10','10-20','20-30','30-70','70-80',
 :::
 
 ## Reporte de sequía {background-image="img/reporte_sequia_araucania_junio2023.png" background-size="65%" background-position="50% 100%"}
-
 
 <!-- ## Anomalías {.smaller} -->
 
